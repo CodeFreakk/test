@@ -1,0 +1,413 @@
+body{
+    margin:20px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    min-height: 100vh;
+    background: rgb(255, 253, 253);
+    color: rgb(8, 5, 1);
+    max-width: 900px;
+    flex-flow: column wrap-reverse;
+    flex-wrap: wrap;
+}
+.container{
+    margin: 100px;
+position: relative;
+max-width: 100%;
+display: grid;
+grid-template-columns: repeat(4, minmax(300px, 1fr));
+grid-template-rows:minmax(100px, auto);
+grid-gap: 8px;
+margin: 40px;
+grid-auto-flow: dense;
+}
+.container .Box{
+    background: rgb(13, 118, 218);
+    padding: 20px;
+    display: grid;
+    font-size: 10px;
+    place-items: center;
+    transition: transform 2s;
+    text-align: center;
+    margin: 100px;
+}
+.container .Box:hover{
+    background: #e91e63;
+    transform: scaleX(1.09);
+}
+.container .Box img{
+    max-width: 100px;
+    margin: 10px;
+}
+/*.Box1{
+    grid-column: 1/3;
+    grid-row: 1;
+    color: darkgoldenrod;
+    background-color: aqua;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+} */
+
+.container .Box .text {
+    position: relative;
+    background:rgba(0, 0,0, .8);
+    transform: scaleY(0);
+    transition: transform .5s;
+    
+}
+.container .Box:hover .text{
+    transform: scaleX(1);
+}
+.container .Box1{
+    background: rgb(247, 162, 5);
+    padding: 20px;
+    display: grid;
+    font-size: 10px;
+    place-items: center;
+    transition: transform 2s;
+    text-align: center;
+
+}
+.container .Box1:hover{
+    background: #ce0202;
+    transform: scaleX(1.09);
+}
+.container .Box1 img{
+    max-width: 100px;
+    margin: 10px;
+}
+.container .Box1:hover .text{
+    transform: scaleX(1);
+}
+.container .Box1 .text {
+    position: relative;
+  
+    transform: scaleY(0);
+    transition: transform .5s;
+}    
+
+.container .Box2{
+    background: rgb(11, 202, 20);
+    padding: 20px;
+    display: grid;
+    font-size: 10px;
+    place-items: center;
+    transition: transform 2s;
+    text-align: center;
+}
+.container .Box2:hover{
+    background: #be7310;
+    transform: scaleX(1.09);
+}
+.container .Box2 img{
+    max-width: 100px;
+    margin: 10px;
+}
+.container .Box2:hover .text{
+    transform: scaleX(1);
+}
+.container .Box2 .text {
+    position: relative;
+  
+    transform: scaleY(0);
+    transition: transform .5s;
+}    
+
+
+
+.container .Box3{
+    background: rgb(243, 18, 18);
+    padding: 20px;
+    display: grid;
+    font-size: 10px;
+    place-items: center;
+    transition: transform 2s;
+    text-align: center;
+}
+.container .Box3:hover{
+    background: #2acea5;
+    transform: scaleX(1.09);
+}
+.container .Box3 img{
+    max-width: 100px;
+    margin: 10px;
+}
+.container .Box3:hover .text{
+    transform: scaleX(1);
+}
+.container .Box3 .text {
+    position: relative;
+
+    transform: scaleY(0);
+    transition: transform .5s;
+}    
+
+
+
+.container .Box4{
+    background: rgb(2, 75, 63);
+    padding: 20px;
+    display: grid;
+    font-size: 10px;
+    place-items: center;
+    transition: transform 2s;
+    text-align: center;
+}
+.container .Box4:hover{
+    background: #5fcf15;
+    transform: scaleX(1.09);
+}
+.container .Box4 img{
+    max-width: 100px;
+    margin: 10px;
+}
+.container .Box4:hover .text{
+    transform: scaleX(1);
+}
+.container .Box4 .text {
+    position: relative;
+
+    transform: scaleY(0);
+    transition: transform .5s;
+}    
+
+.container .Box5{
+    background: rgb(3, 91, 255);
+    padding: 20px;
+    display: grid;
+    font-size: 10px;
+    place-items: center;
+    transition: transform 2s;
+    text-align: center;
+}
+.container .Box5:hover{
+    background: #f13171;
+    transform: scaleX(1.09);
+}
+.container .Box5 img{
+    max-width: 100px;
+    margin: 10px;
+}
+.container .Box5:hover .text{
+    transform: scaleX(1);
+}
+.container .Box5 .text {
+    position: relative;
+
+    transform: scaleY(0);
+    transition: transform .5s;
+
+}    
+
+
+
+.container .Box6{
+    background: purple;
+    padding: 20px;
+    display: grid;
+    font-size: 10px;
+    place-items: center;
+    transition: transform 2s;
+    text-align: center;
+}
+.container .Box6:hover{
+    background-color: sienna;
+    transform: scaleX(1.09);
+}
+.container .Box6 img{
+    max-width: 100px;
+    margin: 10px;
+}
+.container .Box6:hover .text{
+    transform: scaleX(1);
+}
+.container .Box6 .text {
+    position: relative;
+
+    transform: scaleY(0);
+    transition: transform .5s;
+}    
+
+
+
+
+
+.container .Box7{
+    background: rgb(179, 255, 3);
+    padding: 20px;
+    display: grid;
+    font-size: 10px;
+    place-items: center;
+    transition: transform 2s;
+    text-align: center;
+}
+.container .Box7:hover{
+    background-color: violet;
+    transform: scaleX(1.09);
+}
+.container .Box7 img{
+    max-width: 100px;
+    margin: 10px;
+}
+.container .Box7:hover .text{
+    transform: scaleX(1);
+}
+.container .Box7 .text {
+    position: relative;
+
+    transform: scaleY(0);
+    transition: transform .5s;
+}    
+
+
+.container .Box8{
+    background: rgb(63, 2, 43);
+    padding: 20px;
+    display: grid;
+    font-size: 10px;
+    place-items: center;
+    transition: transform 2s;
+    text-align: center;
+}
+.container .Box8:hover{
+    background: #4e2f01;
+    transform: scaleX(1.09);
+}
+.container .Box8 img{
+    max-width: 100px;
+    margin: 10px;
+}
+.container .Box8:hover .text{
+    transform: scaleX(1);
+  }
+.container .Box8 .text {
+    position: relative;
+
+    transform: scaleY(0);
+    transition: transform .5s;
+}    
+
+.container .Box9{
+    background: rgb(56, 44, 65);
+    padding: 20px;
+    display: grid;
+    font-size: 10px;
+    place-items: center;
+    transition: transform 2s;
+    text-align: center;
+}
+.container .Box9:hover{
+    background: salmon;
+    transform: scaleX(1.09);
+}
+.container .Box9 img{
+    max-width: 100px;
+    margin: 10px;
+}
+.container .Box9:hover .text{
+    transform: scaleX(1);
+}
+.container .Box9 .text {
+    position: relative;
+
+    transform: scaleY(0);
+    transition: transform .5s;
+}    
+
+.container .Box10{
+    background: darkgoldenrod;
+    padding: 20px;
+    display: grid;
+    font-size: 10px;
+    place-items: center;
+    transition: transform 2s;
+    text-align: center;
+}
+.container .Box10:hover{
+    background: darkolivegreen;
+    transform: scaleX(1.09);
+}
+.container .Box10 img{
+    max-width: 100px;
+    margin: 10px;
+}
+.container .Box10:hover .text{
+    transform: scaleX(1);
+}
+.container .Box10 .text {
+    position: relative;
+
+    transform: scaleY(0);
+    transition: transform .5s;
+}    
+
+
+
+
+
+.container .Box11{
+    background: olivedrab;
+    padding: 20px;
+    display: grid;
+    font-size: 10px;
+    place-items: center;
+    transition: transform 2s;
+    text-align: center;
+}
+.container .Box11:hover{
+    background: lawngreen;
+    transform: scaleX(1.09);
+}
+.container .Box11 img{
+    max-width: 100px;
+    margin: 10px;
+}
+.container .Box11:hover .text{
+    transform: scaleX(1);
+}
+.container .Box11 .text {
+    position: relative;
+
+    transform: scaleY(0);
+    transition: transform .5s;
+}    
+
+
+.Box1{
+    grid-column: 1/3;
+    
+}
+.Box5{
+    grid-column: 2/4;
+}
+.Box3{
+    grid-row: 2/4;
+}
+.Box7{
+    grid-column: 3/5;
+    grid-row: 4;
+}
+
+.Box10{
+    grid-column: 1/3;
+    grid-row: 4;
+}
+.Box10{
+    grid-row: 1/2;
+}
+h6{
+    padding: 0 100px;
+}
+@media (max-width:801px)
+{
+    .container{
+        grid-template-columns: repeat(1, minmax(5%, 200px));
+
+        grid-template-rows:minmax(auto, auto);
+        grid-row: unset !important;
+        grid-column: unset !important;
+    }
+   
+}
